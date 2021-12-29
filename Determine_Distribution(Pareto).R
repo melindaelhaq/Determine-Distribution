@@ -9,7 +9,7 @@ library(moments)
 library(ParetoPosStable)
 
 #Input Data
-data <- read_excel("location and name of data") #input data with xlsx format
+data <- read_excel("location and name of data.xlsx") #input data with xlsx format
 
 #Statistic Descriptive
 summary (data)     #To show minimum, first quartile (Q1), median (Q2), mean, third quartile (Q3), and maximum of the data
